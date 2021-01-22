@@ -59,7 +59,7 @@ mobs:register_mob("desert_life:ostrich", {
     replace_rate = 1,
 })
 if global_desert_life.spawn_enabled_ostrich then
-mobs:register_spawn("desert_life:ostrich", global_desert_life.spawn_on_ostrich, global_desert_life.spawn_max_light_ostrich, global_desert_life.spawn_min_light_ostrich, global_desert_life.spawn_chance_ostrich, global_desert_life.spawn_active_object_count_ostrich, global_desert_life.spawn_max_height_ostrich, true)
+    mobs:register_spawn("desert_life:ostrich", global_desert_life.spawn_on_ostrich, global_desert_life.spawn_max_light_ostrich, global_desert_life.spawn_min_light_ostrich, global_desert_life.spawn_chance_ostrich, global_desert_life.spawn_active_object_count_ostrich, global_desert_life.spawn_max_height_ostrich, true)
 end
 
 mobs:register_egg("desert_life:ostrich", S("Ostrich"), "dl_ostrich_inv.png", 0)
